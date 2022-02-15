@@ -1,0 +1,14 @@
+num1=int(input('digite um número:'))
+cal=(input('Digite a operação desejada:'))
+num2=int(input('Digite um número:'))
+
+if cal == "+" :
+    resul = num1 + num2
+elif cal == "-":
+    resul = num1 - num2
+elif cal == "/":
+    resul = num1 / num2
+elif cal == "*":
+    resul = num1 * num2
+print("")
+print("O resultado é:" , resul)
